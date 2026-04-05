@@ -1,13 +1,13 @@
-<script>
+  <script>
     import { page } from '$app/state';
   
     const items = [
-    { label: 'Dashboard', href: '/dashboard', icon: '▦' },
-    { label: 'Projects', href: '/projects', icon: '◩' },
-    { label: 'Devices', href: '/devices', icon: '⌁' },
-    { label: 'Analytics', href: '/analytics', icon: '◫' },
-    { label: 'Builder', href: '/builder', icon: '◧' },
-    { label: 'Settings', href: '/settings', icon: '⚙' }
+    { label: 'Dashboard', href: '/dashboard', icon: '📊' },
+    { label: 'Projects', href: '/projects', icon: '🗂️' },
+    { label: 'Devices', href: '/devices', icon: '📤' },
+    { label: 'Analytics', href: '/analytics', icon: '🎯' },
+    { label: 'Builder', href: '/builder', icon: '🛠️' },
+    { label: 'Settings', href: '/settings', icon: '⚙️' }
   ];
   </script>
   

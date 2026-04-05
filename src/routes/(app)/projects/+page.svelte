@@ -43,7 +43,9 @@
 
   <div class="header-actions">
     <button class="ghost-btn" type="button">Import</button>
-    <button class="primary-btn" type="button">+ Create Project</button>
+    <button class="primary-btn" type="button" onclick={() => (window.location.href = '/projects/add')}>
+      + Create Project
+    </button>
   </div>
 </section>
 
